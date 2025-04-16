@@ -9,7 +9,7 @@ buttons = []
 for i in range(3):
     row = []
     for j in range(3):
-        button = ttk.Button(canvas, command=lambda row=i, column=j: click(row, column))
+        button = ttk.Button(canvas, git =lambda row=i, column=j: click(row, column))
         row.append(button)
     buttons.append(row)
 
